@@ -1,0 +1,18 @@
+let var1=2;
+let var2=var1;
+console.log(var1);
+console.log(var2);
+var1=9;
+console.log(var1);
+console.log(var2);
+
+
+let user1={
+    email:"ashaaa123@gmail.com",
+    upi:"uer@ybl"
+}
+let user2=user1;
+user2.email="kumariaaaa@gmail.com";
+console.log(user1.email);
+console.log(user2.email);
+
